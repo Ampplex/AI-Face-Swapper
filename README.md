@@ -9,18 +9,6 @@
 ✅ **Seamless Face Swapping** – Powered by **INSWAPPER (ONNX)** for realistic swaps.  
 ✅ **Automatic Landmark Alignment** – Ensures natural blending of facial features.  
 ✅ **High-Resolution Outputs** – Generates sharp and visually accurate swapped faces.  
-✅ **Supports CPU & GPU** – Runs on **CUDA** (GPU) for fast performance or **CPU** for universal compatibility.  
-
----
-
-## **🖼️ Usage**
-```bash
-python face_swap.py --source elon.jpg --target zuck.jpg --output swapped.jpg
-```
-
-- `--source` → Path to the source face image.
-- `--target` → Path to the target image where the face will be swapped.
-- `--output` → Path to save the swapped image.
 
 ---
 
@@ -43,7 +31,7 @@ To use the face swapper, download the **inswapper_128.onnx** model from **Huggin
 ## **🚀 Example Output**
 | Original Image | Swapped Image |
 |---------------|--------------|
-| ![Elon](elon.jpg) | ![Swapped](swapped.jpg) |
+| ![Elon](https://firebasestorage.googleapis.com/v0/b/ampplex-4d487.appspot.com/o/elon_musk.webp?alt=media&token=a0850ec1-c88d-406d-aef3-1207f2bdca32) | ![Swapped](https://firebasestorage.googleapis.com/v0/b/ampplex-4d487.appspot.com/o/Image%2015-03-25%20at%202.51%E2%80%AFAM%20(1).jpeg?alt=media&token=eeaf0bb1-f468-4067-9ab2-63617321b84f) |
 
 ---
 
