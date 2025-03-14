@@ -13,15 +13,6 @@
 
 ---
 
-## **📌 Installation**
-```bash
-git clone https://github.com/yourusername/face-swapper.git
-cd face-swapper
-pip install -r requirements.txt
-```
-
----
-
 ## **🖼️ Usage**
 ```bash
 python face_swap.py --source elon.jpg --target zuck.jpg --output swapped.jpg
